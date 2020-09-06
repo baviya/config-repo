@@ -14,4 +14,4 @@ spring:
     show-sql: 'true'
 server:
   port: '8083'
-env: hello,env1121231
+env: hello,envt
