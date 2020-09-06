@@ -1,0 +1,17 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: order
+  datasource:
+    url: jdbc:mysql://localhost:3306/Shopping?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: '123456'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: 'true'
+server:
+  port: '8083'
+env: hello,env22
