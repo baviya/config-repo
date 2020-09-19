@@ -17,6 +17,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-#server:
-  #port: '8083'
+server:
+  port: '8083'
 env: hello,en1111111111111111111111111
